@@ -1,0 +1,92 @@
+/* Style général du corps de la page */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #6c757d;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal du formulaire */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des labels et des champs du formulaire */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour les boutons de retour ou autres boutons */
+.btn-back {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+}
+
+/* Style pour le titre du formulaire */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+#timer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}

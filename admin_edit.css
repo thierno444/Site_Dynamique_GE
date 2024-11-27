@@ -1,0 +1,111 @@
+/* admin_edit.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #6c757d;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #007bff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0 4px 8px #007bff;
+}
+
+
+.btn-back:hover {
+    background-color: #e74c3c;
+}
+
+.admin-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.admin-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="email"],
+.admin-form input[type="password"],
+.admin-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.admin-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #007bff;
+}
+
+.admin-form input[type="submit"]:hover {
+    background-color: #e74c3c;
+}
+
+.error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+#timer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #007BFF;
+    position: relative;
+    max-height: 80vh; /* Limite la hauteur de la page pour permettre le défilement */
+    overflow-y: auto; /* Permet le défilement si le contenu dépasse la hauteur définie */
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.table-container {
+    max-height: 60vh; /* Limite la hauteur du tableau */
+    overflow-y: auto; /* Permet le défilement du tableau */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007BFF; /* Couleur de l'en-tête */
+    color: white;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #ddd;
+}
+
+ td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Background clair pour les lignes paires */
+}
+
+tr:hover {
+    background-color: ""; /* Couleur au survol */
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+a[href*="modifier"] {
+    background-color: #3498db; /* Bleu */
+}
+
+a[href*="ajouter_note"] {
+    background-color: #e74c3c; /* orange */
+}
+
+a[href*="bulletin.php"] {
+    background-color: #007BFF; /* bleu */
+}
+a[href*="bulletin2.php"] {
+    background-color: #007BFF; /* bleu */
+}
+a[href*="bulletin3.php"] {
+    background-color: #007BFF; /* bleu */
+}
+a[href*="bulletinmaster1.php"] {
+    background-color: #007BFF; /* bleu */
+}
+a[href*="bulletinmaster2.php"] {
+    background-color: #007BFF; /* bleu */
+}
+
+a[href*="nombre_admis_recales"] {
+    background-color: #f39c12; /* jaune */
+}
+
+a[href*="lister_etudiants_merite"] {
+    background-color: #16a085; /* Bleu/Vert */
+}
+
+a[href*="note_etudiant.php"] {
+    background-color: #e74c3c; /* Rouge */
+}
+
+a:hover {
+    opacity: 0.8; /* Opacité au survol */
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.error {
+    color: #e74c3c; /* Rouge pour les erreurs */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Bleu */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Bleu foncé au survol */
+}
+
+/* Styles pour les statistiques */
+.statistiques {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #007BFF; /* Bleu */
+    border-radius: 15px;
+    border: 1px solid #16a085;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #007BFF;
+}
+
+.statistiques p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.statistiques strong {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}

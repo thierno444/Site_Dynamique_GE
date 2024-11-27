@@ -1,0 +1,93 @@
+/* register_admin.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #007bff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #343a40;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 4px 8px #007bff;
+}
+
+input[type="submit"]:hover {
+    background-color: #e74c3c;
+}
+
+.btn-back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px #007bff;
+}
+
+.btn-back:hover {
+    background-color: #e74c3c;
+}
+
+#timer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+}
